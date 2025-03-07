@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npx tsx index.ts",
     "eval": "npx tsx evals/run.ts $1",
-    "ingest": "npx tsx src/rag/ingest.ts"
+    "ingest": "npx tsx src/rag/ingest.ts",
+    "clear": "rm -rf results.json"
   },
   "devDependencies": {
     "@types/bun": "latest"
