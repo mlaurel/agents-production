@@ -42,7 +42,7 @@ export async function indexMovieData() {
                     actors: movie.Actors,
                     rating: Number(movie.Rating),
                     votes: Number(movie.Votes),
-                    revenue: Number(movie.Revenue,)
+                    revenue: Number(movie.Revenue),
                     metascore: Number(movie.Metascore),
                 },
             })
