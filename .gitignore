@@ -9,8 +9,7 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
-results.json
-# Caches 
+# Caches
 
 .cache
 
@@ -174,5 +173,3 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 .env
-
-db.json

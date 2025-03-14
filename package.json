@@ -6,8 +6,8 @@
         "start": "npx tsx index.ts",
         "eval": "npx tsx evals/run.ts $1",
         "ingest": "npx tsx src/rag/ingest.ts",
-        "clearResults": "echo '{\"experiments\": []}' > results.json ",
-        "clearDb": "echo '{\"messages\": []}' > db.json "
+        "clear:db": "echo '{\"messages\": []}' > db.json ",
+        "clear:results": "echo '{\"results\": []}' > results.json "
     },
     "devDependencies": {
         "@types/bun": "latest"
